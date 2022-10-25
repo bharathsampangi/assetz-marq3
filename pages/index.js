@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Footer from '../components/common/Footer'
 import Navigation from '../components/common/Navigation'
+import Gallery from '../components/gallery/Gallery'
 import Hero from '../components/hero/Hero'
+import Middle from '../components/middle/Middle'
+import Preview from '../components/preview/Preview'
 import Township from '../components/township/Township'
 
 export default function Home() {
@@ -18,6 +21,9 @@ export default function Home() {
       <main>
         <Hero />
         <Township />
+        <Middle />
+        <Gallery />
+        <Preview />
       </main>
 
       <Footer />
