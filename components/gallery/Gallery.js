@@ -13,7 +13,7 @@ const Gallery = () => {
                 <div className={styles.borderBottom}></div>
                 <p className={styles.text}>
                     Have a look into our world,<br/>
-                    It's too large to miss.
+                    It&apos;s too large to miss.
                 </p>
                 <button className={styles.button}>Read More</button>
             </div>

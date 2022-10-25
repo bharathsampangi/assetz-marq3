@@ -8,7 +8,7 @@ export default function Preview() {
                 <div className={styles.header}>
                     <span>
                         A preview<br/>
-                        of life's coming<br/>
+                        of life&apos;s coming<br/>
                         attractions.<br/>
                     </span>
                     <div className={styles.borderBottom}></div>

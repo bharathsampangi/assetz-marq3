@@ -40,7 +40,7 @@ const Hero = () => {
                         <div className={styles.hero2Text3}>
                             <p>With homes that have more park</p>
                             <p>per living space than the</p>
-                            <p>world's biggest metropolises.*</p>
+                            <p>world&apos;s biggest metropolises.*</p>
                         </div>
                     </div>
                 </div>

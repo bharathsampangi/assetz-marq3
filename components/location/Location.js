@@ -14,7 +14,7 @@ export default function Location() {
                         <p className={styles.text}>
                             When you have a world of your own, everything revolves<br/>
                             around you. Marq is strategically located in Whitefield,<br/>
-                            which happens to be one of Bangalore’s fastest growing locales.<br/>
+                            which happens to be one of Bangalore&apos;s fastest growing locales.<br/>
                         </p>
                         <button className={styles.button}>Read More</button>
                     </div>
