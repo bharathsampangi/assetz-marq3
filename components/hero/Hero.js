@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./styles/Hero.module.css"
+import Link from "next/link"
 
 const Hero = () => {
     return (
@@ -11,14 +12,18 @@ const Hero = () => {
                     <p>We breathe the air you travel for</p>
                 </div>
                 <div className={styles.boxContainer}>
-                    <div className={styles.box}>
-                        <span className={styles.number}>01</span>
-                        <p>Location</p>
-                    </div>
-                    <div className={styles.box}>
-                        <span className={styles.number}>02</span>
-                        <p>Gallery</p>
-                    </div>
+                    <Link href="/#location" scroll={false} passHref>
+                        <div className={styles.box}>
+                            <span className={styles.number}>01</span>
+                            <p>Location</p>
+                        </div>
+                    </Link>
+                    <Link href="/#gallery" scroll={false} passHref>
+                        <div className={styles.box}>
+                            <span className={styles.number}>02</span>
+                            <p>Gallery</p>
+                        </div>
+                    </Link>
                     <div className={styles.box}>
                         <span className={styles.number}>03</span>
                         <p>Floor Plans</p>
