@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.link a {
+    color: inherit;
+}
+
 .logo {
     height: 3vmin;
 }

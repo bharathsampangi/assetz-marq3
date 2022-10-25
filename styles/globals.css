@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NimbusRomNo9L';
+  src: url("../public/fonts/NimbusRomNo9LBold.ttf");
+  font-weight: 700;
+  font-style: bold;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,6 +25,7 @@
 
 html, body {
   font-family: 'Open Sans', sans-serif ;
+  scroll-behavior: smooth;
 }
 
 html {
