@@ -1,13 +1,7 @@
 import Head from 'next/head'
 import Footer from '../components/common/Footer'
 import Navigation from '../components/common/Navigation'
-import Gallery from '../components/gallery/Gallery'
-import Hero from '../components/hero/Hero'
-import Middle from '../components/middle/Middle'
-import Preview from '../components/preview/Preview'
-import Township from '../components/township/Township'
-import Location from '../components/location/Location'
-import Contact from '../components/contact/Contact'
+import Main from '../components/main/Main'
 
 export default function Home() {
   return (
@@ -27,15 +21,10 @@ export default function Home() {
       <Navigation />
 
       <main>
-        <Hero />
-        <Township />
-        <Middle />
-        <Gallery />
-        <Preview />
-        <Location />
-        <Contact />
+        <Main />
       </main>
 
+      <div id="modal-root"></div>
       <Footer />
     </div>
   )
