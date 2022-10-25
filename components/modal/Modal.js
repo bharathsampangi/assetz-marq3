@@ -37,7 +37,7 @@ function Modal({ onClose }) {
                     cannot be disclaimed under the applicable laws. 
                     Your use of the website is solely at your own risk. This website is for guidance only. 
                     It does not constitute part of an offer or contract. Design and specifications are 
-                    subject to change without prior notice. Computer generated images are the artist's 
+                    subject to change without prior notice. Computer generated images are the artist&apos;s 
                     impression and are an indication of the actual designs. Further the actual 
                     design/construction may vary in fit and finish from the one displayed in the information 
                     and material displayed on this website.</p>                
