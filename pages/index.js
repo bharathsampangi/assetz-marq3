@@ -6,6 +6,8 @@ import Hero from '../components/hero/Hero'
 import Middle from '../components/middle/Middle'
 import Preview from '../components/preview/Preview'
 import Township from '../components/township/Township'
+import Location from '../components/location/Location'
+import Contact from '../components/contact/Contact'
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <Middle />
         <Gallery />
         <Preview />
+        <Location />
+        <Contact />
       </main>
 
       <Footer />
