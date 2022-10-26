@@ -10,7 +10,7 @@ const Hero = () => {
         setshowModal(true)
         setTimeout(() => {
             setshowModal(false)
-        }, 1000)
+        }, 2000)
     }, [])
 
     return (
