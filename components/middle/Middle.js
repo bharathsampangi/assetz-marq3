@@ -4,7 +4,7 @@ import styles from "./styles/Middle.module.css"
 const Middle = () => {
     return (
         <section className={styles.middleContainer}>
-            <img alt="Middle" src="/images/Middle-Pic.jpg" className={styles.image} />
+            <img alt="Middle" src="/images/Middle-Pic.webp" className={styles.image} />
             <div className={styles.textContainer}>
                 <div className={styles.header}>
                     <h1>

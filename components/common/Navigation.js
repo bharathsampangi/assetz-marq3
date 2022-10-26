@@ -6,7 +6,7 @@ export default function Navigation() {
     return (
         <header className={styles.header}>
             <nav className={styles.navigation}>
-                <img src="/images/Assetz-header-logo.png" alt="Assetz Marq" className={styles.logo}/>
+                <img src="/images/Assetz-header-logo.webp" alt="Assetz Marq" className={styles.logo}/>
                 <ul>
                     <li className={styles.link}>About</li>
                     <li className={styles.link}>

@@ -5,7 +5,7 @@ const Township = () => {
     return (
         <section className={styles.township} id="township">
             <div className={styles.townshipImage}>
-                <img alt="Township" src="/images/TWCH.jpg" />
+                <img alt="Township" src="/images/TWCH.webp" />
             </div>
             <div className={styles.townshipText}>
                 <div className={styles.header}>
