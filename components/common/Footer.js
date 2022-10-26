@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.footerOne}>
                 <div className={styles.footerColumn1}>
-                    <img src="./images/marq-footer-logo.png" alt="Footer" />
+                    <img src="./images/marq-footer-logo.webp" alt="Footer" />
                 </div>
                 <div className={styles.footerColumn2}>
                     <img src="./images/EBrochureDownload-Button.png" alt="E-Brochure" />

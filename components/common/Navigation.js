@@ -23,7 +23,7 @@ export default function Navigation() {
                     </li>
                 </ul>
             </nav>
-            <img src="/images/marq-footer-logo.png" alt="Assetz Marq" className={styles.logoHeader} />
+            <img src="/images/marq-footer-logo.webp" alt="Assetz Marq" className={styles.logoHeader} />
         </header>
     )
 }
