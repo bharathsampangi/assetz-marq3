@@ -1,15 +1,9 @@
 @font-face {
   font-family: 'NimbusRomNo9L';
-  src: url("../public/fonts/NimbusRomNo9L.ttf");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NimbusRomNo9L';
   src: url("../public/fonts/NimbusRomNo9LBold.ttf");
   font-weight: 700;
   font-style: bold;
+  font-display: swap;
 }
 
 * {
