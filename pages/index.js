@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>3 & 4 BHK Apartments for Sale in Whitefield | Assetz Marq</title>
-        <link rel="icon" href="/images/Marq-Logo-Original.jpg" />
+        <link rel="icon" href="/images/Marq-Logo-Original.webp" />
         <meta name="description" 
           content="Assetz Marq 2.0 offers 3 &amp; 4 BHK ultra-modern apartments in Whitefield 
           spread across 22 acres with 6 acres of park and 25+ world-class amenities. Know more." />

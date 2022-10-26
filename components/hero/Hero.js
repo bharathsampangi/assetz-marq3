@@ -42,7 +42,7 @@ const Hero = () => {
             </section>
             <section className={styles.hero2Container}>
                 <div className={styles.hero2}>
-                    <img className={styles.hero2Image} src="/images/green-worldmap.jpg" alt="Map" />
+                    <img className={styles.hero2Image} src="/images/green-worldmap.webp" alt="Map" />
                     <div className={styles.hero2TextContainer}>
                         <div className={styles.hero2Text1}>
                             <span>Marq 3.0</span><br/>
