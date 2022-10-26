@@ -22,13 +22,13 @@ const Hero = () => {
                     <p>We breathe the air you travel for</p>
                 </div>
                 <div className={styles.boxContainer}>
-                    <Link href="/#location" scroll={false} passHref>
+                    <Link href="/#location" scroll={false} rel="noreferrer noopener" passHref>
                         <div className={styles.box}>
                             <span className={styles.number}>01</span>
                             <p>Location</p>
                         </div>
                     </Link>
-                    <Link href="/#gallery" scroll={false} passHref>
+                    <Link href="/#gallery" scroll={false} rel="noreferrer noopener" passHref>
                         <div className={styles.box}>
                             <span className={styles.number}>02</span>
                             <p>Gallery</p>
