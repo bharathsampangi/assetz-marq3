@@ -9,7 +9,7 @@ const Footer = () => {
                     <img src="./images/marq-footer-logo.webp" alt="Footer" />
                 </div>
                 <div className={styles.footerColumn2}>
-                    <img src="./images/EBrochureDownload-Button.png" alt="E-Brochure" />
+                    <img src="./images/EBrochureDownload-Button.webp" alt="E-Brochure" />
                 </div>
                 <div className={styles.footerColumn3}>
                     <p>

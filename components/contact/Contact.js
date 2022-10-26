@@ -15,7 +15,7 @@ export default function Contact() {
                     <input type="number" placeholder="Phone Number"/>
                     <input type="text" placeholder="Message" />
                     <div>
-                        <input type="checkbox" checked/> I agree to recieve updates on Whatsapp
+                        <input type="checkbox" defaultChecked/> I agree to recieve updates on Whatsapp
                     </div>
                     <button className={styles.button}>Submit</button>
                 </form>

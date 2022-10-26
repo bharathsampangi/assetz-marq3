@@ -20,7 +20,7 @@ export default function Location() {
                     </div>
                 </div>
                 <div className={styles.location}>
-                    <img src="/images/Assetz-Marq-Location-Map.jpg" alt="Location" />
+                    <img src="/images/Assetz-Marq-Location-Map.webp" alt="Location" />
                 </div>
             </div>
         </section>
