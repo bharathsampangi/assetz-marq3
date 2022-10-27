@@ -1,0 +1,23 @@
+.sticky {
+    position: sticky;
+    top: 30%;
+    left: 100%;
+    z-index: 999;
+    width: max-content;
+    background-color: black;
+    transform: rotate(270deg);
+    bottom: 0%;
+    cursor: pointer;
+}
+
+.sticky::after {
+    content: "";
+    display: block;
+    margin: -1px;
+}
+
+.stickyNote {
+    padding: .75rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
+}

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/common/Footer'
 import Navigation from '../components/common/Navigation'
 import Main from '../components/main/Main'
+import StickyNote from '../components/common/stickyNote/StickyNote'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
 
       <Navigation />
+      {/* <StickyNote /> */}
 
       <main>
         <Main />
