@@ -9,15 +9,16 @@ export default function Contact() {
                 <div className={styles.borderBottom}></div>
             </div>
             <div className={styles.contactContainer}>
-                <form className={styles.inputContainer}>
-                    <input type="text" placeholder="Name" />
-                    <input type="text" placeholder="Email Id" />
-                    <input type="number" placeholder="Phone Number"/>
-                    <input type="text" placeholder="Message" />
+                <form className={styles.inputContainer} action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="ec20fcf4-3183-4ea2-b3cb-2f8096c34440" />
+                    <input type="text" placeholder="Name" name="name" required />
+                    <input type="email" placeholder="Email Id" name="email" required />
+                    <input type="number" placeholder="Phone Number" name="phone" required />
+                    <input type="text" placeholder="Message" name="message" required />
                     <div>
-                        <input type="checkbox" defaultChecked/> I agree to recieve updates on Whatsapp
+                        <input type="checkbox" name="updates" defaultChecked/> I agree to recieve updates on Whatsapp
                     </div>
-                    <button className={styles.button}>Submit</button>
+                    <input type="submit" className={styles.button} value="Submit"/>
                 </form>
                 <div className={styles.addressContainer}>
                     <p>
