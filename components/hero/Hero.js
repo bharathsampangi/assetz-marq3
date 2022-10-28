@@ -1,18 +1,8 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import styles from "./styles/Hero.module.css"
 import Link from "next/link"
-import Modal from "../modal/Modal"
 
 const Hero = () => {
-    const [showModal, setshowModal] = useState(false)
-
-    useEffect(() => {
-        setshowModal(true)
-        setTimeout(() => {
-            setshowModal(false)
-        }, 2000)
-    }, [])
-
     return (
         <>
             <section className={styles.hero}>
@@ -60,7 +50,6 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
-            {showModal && <Modal onClose={() => setshowModal(false)}/>}
         </>
     )
 }
