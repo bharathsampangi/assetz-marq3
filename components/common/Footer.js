@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerTwo}>
-                &copy; 2022-2023 Assetz Property Group. All rights reserved.
+                &copy; 2022-2023 ABC Realtors. This is not built for marketing. This site is built solely for industry experience.
             </div>
         </footer>
     )
