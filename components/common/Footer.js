@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerTwo}>
-                &copy; 2022-2023 ABC Realtors. This is not built for marketing. This site is built solely for industry experience.
+                &copy; 2022-2023 ABC Realtors. This is not built for marketing. This site is built solely to gain professional experience.
             </div>
         </footer>
     )
