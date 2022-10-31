@@ -13,8 +13,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerColumn3}>
                     <p>
-                        +91 78295 54411<br/>
-                        <span className={styles.email}>enquiries@assetzproperty.com</span>
+                        This site is built solely for professional experience.
                     </p>
                 </div>
             </div>
