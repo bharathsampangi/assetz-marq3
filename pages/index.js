@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Footer from '../components/common/Footer'
 import Navigation from '../components/common/Navigation'
 import Main from '../components/main/Main'
-import StickyNote from '../components/common/stickyNote/StickyNote'
 
 export default function Home() {
   return (
@@ -13,6 +12,7 @@ export default function Home() {
         <meta name="description" 
           content="Assetz Marq 2.0 offers 3 &amp; 4 BHK ultra-modern apartments in Whitefield 
           spread across 22 acres with 6 acres of park and 25+ world-class amenities. Know more." />
+        <meta name="keywords" content="Assetz Marq,Assetz Marq Whitefield,Assetz Marq price, Assetz Marq location,Assetz Marq Reviews, Assetz Marq 3.0, Assetz Marq Off Whitefield Road, Assetz Marq Brochures "/>
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
